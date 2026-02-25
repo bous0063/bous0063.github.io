@@ -38,6 +38,6 @@ nav a {
     border: 2px cyan;
 }
 /* Changing background color on hover */
-nav a {
+nav a:hover {
     background-color: chocolate;
 }
