@@ -21,7 +21,7 @@ background-color: darkgoldenrod;
 }
 /* nth */
 .my-hobbies li:nth-child(odd){
-    background-color: rgb(3, 13, 13);
+    background-color: rgb(12, 218, 218);
 }
 /* styling the navs */
 /* removing the bullets from nav list */
