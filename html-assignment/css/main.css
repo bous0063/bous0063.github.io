@@ -20,8 +20,8 @@ background-color: darkgoldenrod;
     list-style-type: square;
 }
 /* nth */
-.my-hobbies li:nth(odd){
-    background-color: darkslategray;
+.my-hobbies li:nth-child{
+    background-color: rgb(3, 13, 13);
 }
 /* styling the navs */
 /* removing the bullets from nav list */
