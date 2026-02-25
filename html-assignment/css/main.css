@@ -1,0 +1,43 @@
+/* Inheritance-target body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+/* Selecting multiple elements */
+header,footer {
+background-color: darkgoldenrod;
+}
+/* Class selector */
+.site-title {
+    color: darkblue;
+}
+/* adding a box shadow to my image */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+/* Replacing bullets */
+.my-hobbies {
+    list-style-type: square;
+}
+/* nth */
+.my-hobbies li:nth(odd){
+    background-color: darkslategray;
+}
+/* styling the navs */
+/* removing the bullets from nav list */
+nav ul {
+    list-style-type: none;
+}
+/* removing the underline from the links */
+nav a {
+    text-decoration: none;
+}
+/* adding a background and border to the links */
+nav a {
+    background-color: gainsboro;
+    border: 2px cyan;
+}
+/* Changing background color on hover */
+nav a {
+    background-color: chocolate;
+}
