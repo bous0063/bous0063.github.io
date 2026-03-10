@@ -1,5 +1,10 @@
-header image{
-    width: 50px;
+header img{
+      width: 100px;
+}
+.box{
+    width: 400px;
+    background: burlywood;
+    margin: auto;
 }
 body{
     color: aqua;
