@@ -1,14 +1,95 @@
+/* Well positioning the header */
+header{
+    position: relative;
+}
+/* header image resolution */
 header img{
-      width: 100px;
+      width: 100%
 }
 .box{
-    width: 400px;
-    background: burlywood;
+    width: 900px;
     margin: auto;
+    background-color: rgb(177, 182, 182);
 }
+/* laying the h1 on top of the header image */
+header h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-size: 40px;
+    font-style: normal;
+}
+/* displaying the nav */
+nav{
+   text-align: center;
+}
+nav ul li{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 15px 80px;
+    border-right: 1px solid black;
+}
+nav ul li:last-child{
+    border-right: none;
+}
+/* setting up the body to better display it */
 body{
-    color: aqua;
+    color: rgb(138, 168, 168);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* adding background images */
-    background-image: IMG-20250909-WA0020.jpg;
+    /* adding background  */
+    background-color: rgb(79, 255, 255);
+}
+h1, h2, h3, h4 {
+    color: black;
+}
+body p{
+    color: black;
+    margin-right: 1%;
+}
+/* adjusting the image settings */
+.image{
+    width: 250px;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+}
+ul li{
+    color: black;
+}
+/* styling the form */
+form {
+    padding: 20px;
+    color: black;
+    width: 850px;
+}
+/* making a box */
+form input{
+    display: block;
+    width: 98%;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+/* styling the div box */
+div .box{
+    border: 1px solid black;
+    margin: 1px;
+    margin-right: 5px;
+    width: 895px;
+}
+/* styling the choice */
+div .choice{
+    color: black;
+    margin-bottom: 18px;
+}
+/* well displaying the footer */
+footer{
+    color: black;
+    padding-right: 20px;
+    text-align: right;
 }
