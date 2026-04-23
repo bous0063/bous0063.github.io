@@ -1,0 +1,6 @@
+/* let's remove default browser space to ensures padding and border do not affect width */
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
