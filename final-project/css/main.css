@@ -46,7 +46,7 @@ p {
 
 /* Let us place the logo */
 .logo img {
-    width: 40px;
+    width: 25px;
 }
 
 /* removing the bullets lists */
@@ -114,5 +114,15 @@ p {
     padding: 30px;
     margin: auto;
     max-width: 70%;
+}
+
+/* making the main button standingout */
+.button {
+    display: inline-block;
+    background: #c78c06;
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-top: 12px;
 }
 
