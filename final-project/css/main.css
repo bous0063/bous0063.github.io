@@ -71,3 +71,32 @@ p {
     padding: 8px;
 }
 
+/* styling the search bar */
+.search form {
+    position: relative;
+    width: 200px;
+}
+
+/* field */
+.search input {
+    width: 100%;
+    padding: 8px 40px 10px;
+    border: 2px solid #c78c06;
+    outline: none;
+    font-size: 14px;
+}
+
+/* adjusting button insde the input */
+.search button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid #c78c06;
+    background: #222;
+    height: 37px;
+    width: 40px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
