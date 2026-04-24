@@ -74,27 +74,23 @@ p {
 /* styling the search bar */
 .search form {
     display: flex;
-    align-items: stretch; /* important */
+    align-items: center;
 }
 
 .search input {
-    height: 38px;
-    padding: 0 10px;
+    padding: 8px;
     border: 2px solid #c78c06;
-    border-right: none; /* merges with button */
+    border-right: none;
     outline: none;
+    width: 150px;
 }
 
 .search button {
-    height: 38px;
-    padding: 0 12px;
     background: #222;
     color: #c78c06;
     border: 2px solid #c78c06;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    padding: 8px 12px;
+    cursor: pointer;
 }
 
 /* Let us now style the banner */
