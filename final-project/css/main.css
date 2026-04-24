@@ -244,6 +244,10 @@ p {
     flex-direction: column;
     gap: 2rem;
 }
+.contact-form,
+.map {
+    flex: 1;
+}
 
 /* send button */
 .contact-form button {
