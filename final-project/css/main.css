@@ -139,6 +139,7 @@ p {
 .about-text {
     margin-right: 115px;
     margin-bottom: 10px;
+    display: flex;
 }
 
 .about-image {
