@@ -337,14 +337,7 @@ td {
         grid-template-columns: repeat(6, 1fr);
     }
 
-    .services:nth-child(1), .services:nth-child(2) {
-        grid-column: span 3;
-    }
-
-    .services:nth-child(3), .services:nth-child(4), .services:nth-child(5) {
-        grid-column: span 2;
-    }
-
+    
     .team-member {
         display: flex;
         margin-bottom: 0;
