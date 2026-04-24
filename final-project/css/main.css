@@ -260,6 +260,13 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+.hours table thead {
+    background: #ffe6ac;
+}
+
+.hours h2 {
+    margin-bottom: 20px;
+}
 
 th,
 td {
