@@ -21,7 +21,7 @@ h2,h3 {
 }
 
 p {
-    margin-top: 16px;
+    margin-top: 15px;
     font-size: 14px;
 }
 
@@ -60,7 +60,7 @@ p {
 .main-nav a {
     color: #c78c06;
     text-decoration: none;
-    display: block;
+    display: flex;
     padding: 15px 20px;
 }
 
