@@ -183,6 +183,20 @@ p {
 .service-card:nth-child(5) {
     grid-column: span 2;
 }
+.service-card h3,
+.service-card p {
+    padding: 10px;
+}
+
+.service-card a {
+    display: block;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin: 10px;
+    text-decoration: none;
+}
 .services img {
     width: 100%;
     height: 200px;
