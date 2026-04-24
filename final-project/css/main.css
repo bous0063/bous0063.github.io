@@ -143,9 +143,6 @@ p {
     gap: 2rem;
 }
 
-.about-image {
-    order: -1;
-}
 
 /* services section */
 .services {
