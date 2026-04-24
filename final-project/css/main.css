@@ -113,7 +113,7 @@ p {
     background: rgba(0, 0, 0, 0.7);
     padding: 30px;
     margin: auto;
-    max-width: 70%;
+    max-width: 900px;
 }
 
 /* making the main button standingout */
@@ -124,6 +124,8 @@ p {
     padding: 12px 20px;
     text-decoration: none;
     margin-top: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 /* let us style the about section */
@@ -137,8 +139,8 @@ p {
 }
 
 .about-text {
-    margin-right: 115px;
-    margin-bottom: 10px;
+    display: flex;
+    gap: 2rem;
 }
 
 .about-image {
@@ -157,7 +159,7 @@ p {
 }
 
 /* styles the services card */
-.services {
+.service-card {
     background: #ffe6ac;
 }
 
