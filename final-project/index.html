@@ -49,14 +49,15 @@
 <!-- Creating the About Section -->
 <section class="about">
     <div class="container about-flex">
+        <div class="about-image">
+            <img src="images/about-us.jpg" alt="Office space">
+         </div>
         <div class="about-text">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa pariatur quod officia optio qui eius ex sed, dolore, vel aliquam incidunt exercitationem alias cum? Voluptates, deserunt labore. Necessitatibus, quibusdam nihil!</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea recusandae eum pariatur in? Unde, debitis explicabo velit quo omnis minima et ex nesciunt amet perspiciatis iste, dolorum sequi odit obcaecati?</p>
         </div>
-         <div class="about-image">
-            <img src="images/about-us.jpg" alt="Office space">
-         </div>
+         
     </div>
 
 </section>
@@ -74,7 +75,7 @@
 
             </article>
 
-            <article class="services">
+            <article class="service-card">
                 <img src="images/marketing.jpg" alt="marketing">
                 <h3>marketing</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, impedit mollitia! Saepe assumenda necessitatibus rerum quis iste tempore minus et? Voluptate molestiae aperiam minima aspernatur sit ex, necessitatibus eligendi nisi.</p>
@@ -82,7 +83,7 @@
 
             </article>
 
-            <article class="services">
+            <article class="service-card">
                 <img src="images/video.jpg" alt="Video Production">
                 <h3>Video Production</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corrupti doloremque, tenetur in amet vitae blanditiis libero adipisci error sunt incidunt, harum inventore explicabo ipsum dolor numquam, suscipit dolorum at.</p>
@@ -90,7 +91,7 @@
 
             </article>
 
-            <article class="services">
+            <article class="service-card">
                 <img src="images/web.jpg" alt="Web Development">
                 <h3>Web Development</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, optio accusantium eligendi blanditiis mollitia quasi eaque vel quod. Sunt officia fugiat laboriosam similique saepe, rem voluptatibus tempora non mollitia praesentium!</p>
@@ -98,7 +99,7 @@
 
             </article>
 
-            <article class="services">
+            <article class="service-card">
                 <img src="images/print.jpg" alt="print">
                 <h3>Print</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, culpa beatae itaque distinctio perferendis voluptatum nam ex id rerum maiores voluptatibus consequuntur dolorum, possimus voluptas consectetur dolorem blanditiis aliquam ipsa.</p>
@@ -142,35 +143,38 @@
     </div>
 </section>
 <!-- Creating the Contact section -->
-<section class="contact-content">
-    <div class="contact-form">
+  <section class="contact">
+    <div class="container">
         <h2>Contact Us</h2>
+
+        <div class="contact-content">
+            
+            <div class="contact-form">
+                <h3>Send us a message</h3>
+                <form>
+                    <label>Full Name</label>
+                    <input type="text">
+
+                    <label>Email</label>
+                    <input type="email">
+
+                    <label>Message</label>
+                    <textarea></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps?q=Algonquin+College&output=embed"
+                    loading="lazy">
+                </iframe>
+            </div>
+
+        </div>
     </div>
-    <!-- Now adding the form -->
-     <div class="contact-form">
-        <h3>Send us a message</h3>
-        <form>
-            <label>Full Name</label>
-            <input type="text">
-
-            <label>Email</label>
-            <input type="email">
-
-            <label>Message</label>
-            <textarea></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-     </div>
-
-     <!-- Now Adding the location section -->
-      <iframe 
-         src="https://www.google.com/maps?q=Algonquin+College&output=embed"
-         class="map"
-         loading="lazy">
-     </iframe>
-    </div>
-</section>
+  </section>
 <!-- Adjusting the hours! -->
 <section class="hours">
     <div class="container">
