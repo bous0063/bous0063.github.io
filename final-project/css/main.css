@@ -179,3 +179,26 @@ p {
     margin: 10px;
     text-decoration: none;
 }
+
+/* adjusting the vision section */
+.vision {
+    background: url("../images/vision.jpg") no-repeat center/cover;
+    color: white;
+    padding: 80px 20px;
+    position: relative;
+}
+
+/* making the content appears above overlay */
+.vision .container {
+    position: relative;
+}
+
+.vision a {
+    background: transparent;
+    color: white;
+    border: 1px solid #c78c06;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
