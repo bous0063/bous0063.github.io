@@ -24,3 +24,10 @@ p {
     margin-top: 16px;
     font-size: 14px;
 }
+
+/* changing the layout of the center container and adjusting the limits */
+.container {
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+}
