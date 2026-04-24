@@ -214,21 +214,25 @@ p {
 }
 
 /* let us style the team section */
-.team {
-    padding: 2rem 0;
-}
 .team-member {
+    display: flex;
     background: #ffe6ac;
     margin-bottom: 1rem;
 }
+
 .team-member img {
-    width: 100%;
+    width: 50%;
+    object-fit: cover;
 }
+
 .team-member div {
-    padding: 15px;
+    width: 50%;
+    padding: 20px;
 }
-.team-member hr {
-    color: #c78c06;
+
+/* alternate layout */
+.team-member:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 /* let us style the contact section */
