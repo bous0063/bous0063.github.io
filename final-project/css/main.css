@@ -100,3 +100,19 @@ p {
     right: 0;
     position: absolute;
 }
+
+/* Let us now style the banner */
+.banner {
+    background: url("../images/main-banner.jpg") no-repeat center/cover;
+    color: white;
+    padding: 80px 50px;
+}
+
+/* putting an overlay to better the readibility */
+.banner-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin: auto-;
+    max-width: 70%;
+}
+
