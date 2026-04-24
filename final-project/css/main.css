@@ -46,7 +46,7 @@ p {
 
 /* Let us place the logo */
 .logo img {
-    width: 60px;
+    width: 40px;
 }
 
 /* removing the bullets lists */
@@ -61,7 +61,6 @@ p {
 .main-nav a {
     color: #c78c06;
     text-decoration: none;
-    display: flex;
     padding: 15px 20px;
 }
 
