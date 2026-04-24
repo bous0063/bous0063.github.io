@@ -146,7 +146,7 @@ p {
 .about-flex {
     display: flex;
     gap: 2rem;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .about-image {
