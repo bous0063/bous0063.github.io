@@ -54,7 +54,7 @@ p {
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    display: inline;
+    display: flex;
 }
 
 /* adding the links to the navigations */
