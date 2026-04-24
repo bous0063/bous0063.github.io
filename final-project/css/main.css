@@ -102,14 +102,14 @@ p {
 }
 
 /* Let us now style the banner */
-.Hero {
+.hero {
     background: url("../images/main-banner.jpg") no-repeat center/cover;
     color: white;
     padding: 80px 50px;
 }
 
 /* putting an overlay to better the readibility */
-.Hero-content {
+.hero-content {
     background: rgba(0, 0, 0, 0.7);
     padding: 30px;
     margin: auto-;
