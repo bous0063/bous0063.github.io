@@ -202,3 +202,21 @@ p {
     display: inline-block;
     margin-top: 20px;
 }
+
+/* let us style the team section */
+.team {
+    padding: 2rem 0;
+}
+.team-member {
+    background: #ffe6ac;
+    margin-bottom: 1rem;
+}
+.team-member img {
+    width: 100%;
+}
+.team-member div {
+    padding: 15px;
+}
+.team-member hr {
+    color: #c78c06;
+}
