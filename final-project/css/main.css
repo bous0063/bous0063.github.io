@@ -44,3 +44,14 @@ p {
     display: flex; 
 }
 
+/* Let us place the logo */
+.logo img {
+    width: 60px;
+}
+
+/* removing the bullets lists */
+.main-nav ul {
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
