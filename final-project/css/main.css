@@ -51,9 +51,10 @@ p {
 
 /* removing the bullets lists */
 .main-nav ul {
-    align-items: stretch;
+    align-items: center;
     justify-content: space-between;
     list-style: none;
+    display: inline;
 }
 
 /* adding the links to the navigations */
