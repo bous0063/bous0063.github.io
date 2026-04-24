@@ -141,12 +141,17 @@ p {
 .about-text {
     display: flex;
     gap: 2rem;
+    flex: 1;
 }
 
 .about-flex {
     display: flex;
     gap: 2rem;
     align-items: flex-start;
+}
+
+.about-text h2 {
+     margin-top: 0;
 }
 
 .about-image {
