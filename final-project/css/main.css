@@ -73,32 +73,24 @@ p {
 
 /* styling the search bar */
 .search form {
-    position: relative;
-    width: 200px;
-}
-
-/* field */
-.search input {
-    width: 100%;
-    padding: 8px 40px 10px;
-    border: 2px solid #c78c06;
-    outline: none;
-    font-size: 14px;
-}
-
-/* adjusting button insde the input */
-.search button {
-    justify-content: center;
-    align-items: center;
     display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 8px;
     border: 2px solid #c78c06;
+    border-right: none;
+    outline: none;
+    width: 150px;
+}
+
+.search button {
     background: #222;
-    height: 37px;
-    width: 40px;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    position: absolute;
+    color: #c78c06;
+    border: 2px solid #c78c06;
+    padding: 8px 12px;
+    cursor: pointer;
 }
 
 /* Let us now style the banner */
