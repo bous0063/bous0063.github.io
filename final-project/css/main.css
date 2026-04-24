@@ -139,8 +139,7 @@ p {
 }
 
 .about-text {
-    display: flex;
-    gap: 2rem;
+   
     flex: 1;
 }
 
