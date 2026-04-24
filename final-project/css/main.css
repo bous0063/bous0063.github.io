@@ -51,7 +51,7 @@ p {
 
 /* removing the bullets lists */
 .main-nav ul {
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     list-style: none;
 }
