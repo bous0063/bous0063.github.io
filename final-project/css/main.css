@@ -139,10 +139,43 @@ p {
 .about-text {
     margin-right: 115px;
     margin-bottom: 10px;
-    display: flex;
 }
 
 .about-image {
     order: -1;
 }
 
+/* services section */
+.services {
+    padding: 2rem 0;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* styles the services card */
+.services {
+    background: #ffe6ac;
+}
+
+.services img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.services h3, .services p {
+    padding: 10px;
+}
+
+.services a {
+    display: block;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin: 10px;
+    text-decoration: none;
+}
