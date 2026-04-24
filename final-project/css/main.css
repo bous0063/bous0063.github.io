@@ -31,3 +31,16 @@ p {
     width: 90%;
     max-width: 1200px;
 }
+
+/* now let us adjust the header and the mobile layout */
+.site-header {
+    background: #222;
+}
+
+.site-header .container {
+    padding: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
