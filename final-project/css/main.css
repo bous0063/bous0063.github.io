@@ -153,10 +153,6 @@ p {
      margin-top: 0;
 }
 
-.about-image {
-    order: -1;
-}
-
 /* services section */
 .services {
     padding: 2rem 0;
