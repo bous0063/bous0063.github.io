@@ -151,7 +151,7 @@ p {
 
 /* services section */
 .service-card {
-    padding: 2rem 0;
+    background: #ffe6ac;
 }
 
 .services-grid {
