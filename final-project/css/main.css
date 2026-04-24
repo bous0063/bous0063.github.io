@@ -178,7 +178,6 @@ p {
     grid-column: span 3;
 }
 
-/* last 3 smaller cards */
 .service-card:nth-child(3),
 .service-card:nth-child(4),
 .service-card:nth-child(5) {
