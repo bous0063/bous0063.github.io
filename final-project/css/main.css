@@ -143,6 +143,12 @@ p {
     gap: 2rem;
 }
 
+.about-flex {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
 .about-image {
     order: -1;
 }
